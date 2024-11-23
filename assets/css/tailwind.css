@@ -1,0 +1,47 @@
+/* ***Dont @import anything in this file
+if you want to @import --> Go to main.scss */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+  h3 {
+    @apply text-2xl;
+  }
+  h4 {
+    @apply text-xl;
+  }
+  h5 {
+    @apply text-lg;
+  }
+}
+
+:root {
+  --color-primary: 68, 56, 202;
+  --color-secondary: 111, 114, 185;
+  --color-error: 244, 63, 93;
+  --color-success: 16, 185, 129;
+  --color-warning: 251, 191, 36;
+  --color-background: 15, 23, 42;
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.vc-primary {
+  --vc-accent-50: #eef2ff;
+  --vc-accent-100: #e0e7ff;
+  --vc-accent-200: #c7d2fe;
+  --vc-accent-300: #a5b3fc;
+  --vc-accent-400: #818bf8;
+  --vc-accent-500: #6365f1;
+  --vc-accent-600: #5046e5;
+  --vc-accent-700: #4438ca;
+  --vc-accent-800: #3830a3;
+  --vc-accent-900: #322e81;
+  --vc-accent-950: #1e1b4b;
+}

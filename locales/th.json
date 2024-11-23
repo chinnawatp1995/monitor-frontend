@@ -1,0 +1,10 @@
+{
+  "hello": "สวัสดี",
+  "validations": {
+    "required": "Required",
+    "maxValue": "Max value ({max})",
+    "minValue": "Min value ({min})",
+    "maxLength": "Max length ({max})",
+    "minLength": "Min length ({min})"
+  }
+}

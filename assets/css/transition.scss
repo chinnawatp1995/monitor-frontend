@@ -1,0 +1,47 @@
+.dropdown-enter-active,
+.dropdown-leave-active {
+  @apply transition-all duration-200 ease-out;
+}
+
+.dropdown-enter-from,
+.dropdown-leave-to {
+  @apply origin-top scale-0 opacity-0;
+}
+
+.dropdown-enter-to,
+.dropdown-leave-from {
+  @apply origin-top scale-100 opacity-100;
+}
+
+.expand-y-enter-active,
+.expand-y-leave-active {
+  @apply transition-all duration-200 ease-linear;
+}
+
+.slide-y-enter-active,
+.slide-y-leave-active {
+  @apply transition-all duration-200 ease-out;
+}
+
+.slide-y-enter-from,
+.slide-y-leave-to {
+  @apply -translate-y-4 opacity-0;
+}
+.slide-y-enter-to,
+.slide-y-leave-from {
+  @apply translate-y-0 opacity-100;
+}
+
+.scale-enter-active,
+.scale-leave-active {
+  @apply transition-all duration-200 ease-out;
+}
+
+.scale-enter-from,
+.scale-leave-to {
+  @apply scale-75 opacity-0;
+}
+.scale-enter-to,
+.scale-leave-from {
+  @apply scale-100 opacity-100;
+}
